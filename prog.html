@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+ <head>
+   <meta charset-"utf-8"/>
+   <script>
+      function Masseage(){
+        if(Masseaged_content.value === ""){
+          alert("Set your Masseage")
+        }else{
+          Masseage_area.innerText = Masseaged_content.value;
+          alert("you set the Masseage");
+          Masseaged_content.value = "";
+          No_Masseage.innerText =  "There is a new masseage";
+        }
+      }
+   </script>
+ </head>
+ <body>
+   <h1>Masseage Board</h1>
+   <h3 id="No_Masseage">No Masseage</h3>
+   <p id="Masseage_area"></p>
+   <input id=Masseaged_content><button onclick="Masseage();">set</button>
+ </body>
+<html>
