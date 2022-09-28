@@ -4,15 +4,17 @@ body {
   padding: 0;
 }
 .header {
-  background-color: white;
+  background-color: black;
+  font-color: white;
   padding: 0 .5em;
 }
 .footer {
   background-color: white;
+  font-color: blue
   padding: 0 .5em;
 }
 .main {
-  background-color: #fff8d8;
+  background-color: #fe2537;
   padding: 1em;
 }
 h1 {
